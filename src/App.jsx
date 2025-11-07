@@ -228,7 +228,7 @@ function Hero({ onResumeClick = () => {} }) {
             >
               <div className="absolute inset-0 p-3 sm:p-4 flex items-center justify-center">
                 <img
-                  src="/images/myimage.jpg"
+                  src="/images/myimg.jpg"
                   alt="Rajat Saxena"
                   className="w-full h-full object-cover rounded-xl"
                   onError={(e) => {
