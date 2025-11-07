@@ -228,7 +228,7 @@ function Hero({ onResumeClick = () => {} }) {
             >
               <div className="absolute inset-0 p-3 sm:p-4 flex items-center justify-center">
                 <img
-                  src="src/assets/images/myimage.jpg"
+                  src="/images/myimage.jpg"
                   alt="Rajat Saxena"
                   className="w-full h-full object-cover rounded-xl"
                   onError={(e) => {
@@ -509,22 +509,22 @@ function EducationCerts() {
       title: "AI Basics using Spring Framework", 
       issuer: "Simplilearn", 
       date: "Nov 2025",
-      img: "src/assets/certificate/spring_Ai_Basic_simlpillearn.jpg", 
-      pdf: "src/assets/certificate/spring_Ai_Basic_simlpillearn.pdf"  
+      img: "/certificate/spring_Ai_Basic_simlpillearn.jpg", 
+      pdf: "/certificate/spring_Ai_Basic_simlpillearn.pdf"  
     },
     { 
       title: "SQL Certification", 
       issuer: "Great Learning", 
       date: "Oct 2022",
-      img: "src/assets/certificate/sql_Greatlearning.jpg", 
-      pdf: "src/assets/certificate/sqlgreatlearning.pdf"  
+      img: "/certificate/sql_Greatlearning.jpg", 
+      pdf: "/certificate/sqlgreatlearning.pdf"  
     },
     { 
       title: "Mobile App Development with Python", 
       issuer: "Great Learning", 
       date: "Oct 2022",
-      img: "src/assets/certificate/mobilepython_GreatLearning.jpg", 
-      pdf: "src/assets/certificate/mobileAppPython_greatLearning.pdf"  
+      img: "/certificate/mobilepython_GreatLearning.jpg", 
+      pdf: "/certificate/mobileAppPython_greatLearning.pdf"  
     },
   ];
 
