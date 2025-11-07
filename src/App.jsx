@@ -945,7 +945,7 @@ export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleResumeClick = () => {
-    const resumeUrl = "/Rajat_Saxena_Resume.pdf";
+    const resumeUrl = "public/resume/Rajat-Saxena-Resume.pdf";
     window.open(resumeUrl, "_blank");
   };
 
