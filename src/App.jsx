@@ -482,6 +482,40 @@ function Skills() {
   );
 }
 
+function SoftSkills() {
+  const skills = [
+    "Team Player",
+    "Active Learner",
+    "Observation",
+  ];
+
+  return (
+    <section id="softskills" className="py-12 sm:py-16 bg-[#010a14]">
+      <div className="container mx-auto px-4 sm:px-6">
+        <SectionHeader
+          title="Soft Skills"
+          subtitle="Personal attributes that enhance my work"
+        />
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+          {skills.map((skill) => (
+            <motion.div
+              key={skill}
+              initial={{ y: 8, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.45 }}
+              className="rounded-xl p-4 sm:p-6 border border-cyan-400/8 bg-[#04121a] text-center"
+            >
+              <h4 className="text-base sm:text-lg font-semibold text-cyan-100">{skill}</h4>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+
 function EducationCerts() {
   const education = [
     {
@@ -1073,6 +1107,7 @@ export default function App() {
 
         <TechTools />
         <Skills />
+        <SoftSkills />
         <Projects />
         <EducationCerts />
         <Contact />
